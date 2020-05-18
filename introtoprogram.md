@@ -8,14 +8,14 @@
 
 [**Neguib Habib Metri Guevara**](https://github.com/Neguib-Metri/introstructureprog) 
 
-**Declarative** 
+[**Declarative**](https://sg.com.mx/revista/24/programacion-declarativa)
 
 In computer science, declarative programming is a
 programming paradigm a style of building the structure and elements of computer
 programs that expresses the logic of a computation without describing its control
 flow. 
 
-**Functional Programming:** 
+[**Functional Programming:**](https://www.geeksforgeeks.org/functional-programming-paradigm/)
 
 Functional programming is a programming paradigm in which we 
 try to bind everything in pure mathematical functions style.
