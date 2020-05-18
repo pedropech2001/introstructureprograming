@@ -1,4 +1,4 @@
-   <h1><**Programmig Paradigms**>  
+   <h1>**Programmig Paradigms**<br>
    
    **GIT REPOSITORY's**
 	
