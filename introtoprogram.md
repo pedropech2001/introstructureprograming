@@ -116,31 +116,40 @@ Here, we used a symbol > and it is called a relational operator and in their sim
   -If 
   -Else 
 
-*Logical Operators:
+**Logical Operators:**
 Logical operators are very important in any programming language and they help us take decisions based on certain conditions. Suppose we want to combine the result of two conditions, then logical AND and OR logical operators help us in producing the final result.
-The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0, then −
+The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0, then
+
+
 --------------------------------------------------------------------------------------------------------------------------------
     Operator	                                      Description	                                        Example
 &&	Called Logical AND operator. If both the operands are non-zero, then condition becomes true.	(A && B) is false.
 ||	Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true.	(A || B) is true.
 !	Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false.	!(A && B) is true.
 --------------------------------------------------------------------------------------------------------------------------------
-*Compiled Languages:
+
+**Compiled Languages:**
+
 Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage.
 Compiled languages need a “build” step – they need to be manually compiled first. You need to “rebuild” the program every time you need to make a change. In our hummus example, the entire translation is written before it gets to you. If the original author decides that he wants to use a different kind of olive oil, the entire recipe would need to be translated again and resent to you.
    -Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
 
-*Interpreted Languages
+**Interpreted Languages**
+
 Interpreters run through a program line by line and execute each command. Here, if the author decides he wants to use a different kind of olive oil, he could scratch the old one out and add the new one. Your translator friend can then convey that change to you as it happens.
 Interpreted languages were once significantly slower than compiled languages. But, with the development of just-in-time compilation, that gap is shrinking.
     -Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
 
-*Source Code: 
+**Source Code:**
+
 Source code is the fundamental component of a computer program that is created by a programmer. It can be read and easily understood by a human being. When a programmer types a sequence of C programming language statements into Windows Notepad, for example, and saves the sequence as a text file, the text file is said to contain the source code.
 
-*C Programming Reserved Keywords
+**C Programming Reserved Keywords**
 Often found in programming languages and macros, reserved words are terms or phrases appropriated for special use that may not be utilized in the creation of variable names. For example, "print" is a reserved word because it is a function in many languages to show text on the screen.
+
+
 Here is a table having almost all the keywords supported by C Programming language −
+
 --------------------------------------------
 auto	else	long	switch
 break	enum	register	typedef
@@ -153,7 +162,7 @@ do	int	struct	_Packed
 double			
 --------------------------------------------
 
-*Identifiers:
+**Identifiers:**
 What are Identifiers?
 In C language identifiers are the names given to variables, constants, functions and user-define data. These identifiers are defined against a set of rules.
 Rules for an Identifier
@@ -174,17 +183,25 @@ Constants are used in two ways. They are:
 A literal constant is a value you type into your program wherever it is needed. Examples include the constants used for initializing a variable and constants used in lines of code 
 
 
-*Data types: 
+**Data types: **
+
+
 Data types specify how we enter data into our programs and what type of data we enter. Language has some predefined set of data types to handle various kinds of data that we can use in our program. These datatypes have different storage capacities.
 A language supports 2 different type of data types:
-1.	Primary data types:
+
+1.	**Primary data types:**
+
 These are fundamental data types in C namely integer(int), floating point(float), character(char) and void.
-2.	Derived data types:
+
+2.	**Derived data types:**
+
 Derived data types are nothing but primary datatypes but a little twisted or grouped together like array, structure, union and pointer. These are discussed in details later.
 Data type determines the type of data a variable will hold. If a variable x is declared as int. it means x can hold only integer values. Every variable which is used in the program must be declared as what data-type it is.
  
-*Integer type
+**Integer type**
+
 Integers are used to store whole numbers.
+
 Size and range of Integer type on 16-bit machine:
 ------------------------------------------------------------------------
 Type	Size(bytes)	Range
@@ -195,8 +212,11 @@ unsigned short int	1	0 to 255
 long int or signed long int	4	-2,147,483,648 to 2,147,483,647
 unsigned long int	4	0 to 4,294,967,295
 ________________________________________________________________________
+
 Floating point type
+
 Floating types are used to store real numbers.
+
 Size and range of Integer type on 16-bit machine
 ------------------------------------------------------------------------
 Type	Size(bytes)	Range
@@ -204,15 +224,19 @@ Float	4	3.4E-38 to 3.4E+38
 double	8	1.7E-308 to 1.7E+308
 long double	10	3.4E-4932 to 1.1E+4932
 ________________________________________________________________________
+
 Character type
+
 Character types are used to store characters value.
+
 Size and range of Integer type on 16-bit machine
 ------------------------------------------------------------------------
 Type	Size(bytes)	Range
 char or signed char	1	-128 to 127
 unsigned char	1	0 to 255
 _________________________________________________________________________
-*Void type
+
+**Void type**
 void type means no value. This is usually used to specify the type of functions which returns nothing. We will get acquainted to this datatype as we start learning more advanced topics in a language, like functions, pointers etc.
 
 ________________________________________________________________________________________________________________________________
