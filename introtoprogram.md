@@ -1,10 +1,10 @@
-**Programmig Paradigms**
-				                                             *GIT REPOSITORY's*
-				**Ricardo Armando Centeno Santos** https://github.com/ricardocenteno18/introstructureprog/blob/master/introstructureprog.md
+                                               **Programmig Paradigms**
+				                  *GIT REPOSITORY's*
+[**Ricardo Armando Centeno Santos**](https://github.com/ricardocenteno18/introstructureprog/blob/master/introstructureprog.md)
 				
-				**Pedro Luis Pech Marquez** https://github.com/pedropech2001/introstructureprograming
+[**Pedro Luis Pech Marquez**](https://github.com/pedropech2001/introstructureprograming)
 
-				**Neguib Habib Metri Guevara** https://github.com/Neguib-Metri/introstructureprog 
+[**Neguib Habib Metri Guevara**](https://github.com/Neguib-Metri/introstructureprog) 
 
 *Declarative:
 In computer science, declarative programming is a
