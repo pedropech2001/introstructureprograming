@@ -243,22 +243,40 @@ ________________________________________________________________________________
 **REREFENCES**
 
 [REFERENCE_1](https://www.geeksforgeeks.org/functional-programming-paradigm/)
+
 [REFERENCE_2](https://sg.com.mx/revista/24/programacion-declarativa)
+
 [REFERENCE_3](https://www.computerhope.com/jargon/l/logic-programming.htm)
+
 [REFERENCE_4](https://www.cse.unsw.edu.au/~tw/brwhkr08.pdf)
+
 [REFERENCE_5](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)
+
 [REFERENCE_6](https://www.quora.com/What-are-the-characteristics-of-structured-programming)
+
 [REFERENCE_7](https://condor.depaul.edu/sjost/it236/documents/structured.htm)
+
 [REFERENCE_8](https://www.computerhope.com/jargon/i/imp-programming.htm)
+
 [REFERENCE_9](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/)
+
 [REFERENCE_10](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_paradigm.htm)
+
 [REFERENCE_11](https://www.studytonight.com/c/c-input-output-function.php)
+
 [REFERENCE_12](https://www.tutorialspoint.com/computer_programming/computer_programming_operators.htm)
+
 [REFERENCE_13](https://www.oreilly.com/library/view/actionscript-the-definitive/1565928520/ch03s05.html)
+
 [REFERENCE_14](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/)
+
 [REFERENCE_15](https://techterms.com/definition/sourcecode)
+
 [REFERENCE_16](https://searchapparchitecture.techtarget.com/definition/source-code)
+
 [REFERENCE_17](https://www.studytonight.com/c/keywords-and-identifier.php)
+
 [REFERENCE_18](https://press.rebus.community/programmingfundamentals/chapter/constants-and-variables/)
+
 
 
