@@ -1,4 +1,4 @@
-   **Programmig Paradigms** <h1>
+   **Programmig Paradigms**
                                                   **GIT REPOSITORY's**
 	
 [**Ricardo Armando Centeno Santos**](https://github.com/ricardocenteno18/introstructureprog/blob/master/introstructureprog.md)
