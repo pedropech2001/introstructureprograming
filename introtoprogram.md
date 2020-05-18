@@ -57,6 +57,7 @@ The tasks follow each other in such a way that the output of one is the input of
 **Structured:**
 
 **Structured programming is a program written with only the structured programming constructions:**
+
 Sequence: Lines or blocks of code are written and executed in sequential order. Repetition: Repeat a block of code (Action) while a condition is true. There is no limit to the number of times that the block can be executed. Selection: Execute a block of code (Action) if a condition is true. The block of code is executed at most once. 
 Some characteristics are: The code should be in modular nature, there should be single entry and single exit for each module (i.e. no unconditional gates). At least one construct each for sequence, condition and iteration.
 
@@ -91,13 +92,16 @@ The important features of object–oriented programming are:
 
 *Some examples of object-oriented programming languages are C++, Java, Smalltalk, Delphi, C#, Perl, Python, Ruby, and PHP.
 
-*Identify basic functions of input-output (I/O) in structured programming language.
+**Identify basic functions of input-output (I/O) in structured programming language.**
+
 Input means to provide the program with some data to be used in the program and Output means to display data on screen or write the data to a printer or a file.
 C programming language provides many built-in functions to read any given input and to display data on screen when there is a need to output the result.
 Such as scanf() and printf() functions
 
-*Identify the operators of structured programming language (Relational/Conditional/Logical): 
-Here, we used a symbol > and it is called a relational operator and in their simplest form, they produce Boolean results which means the result will be either true or false. Similarly, a programming language provides various relational operators. The following table lists down a few of the important relational operators available in C programming language. 
+**Identify the operators of structured programming language (Relational/Conditional/Logical):** 
+
+Here, we used a symbol > and it is called a relational operator and in their simplest form, they produce Boolean results which means the result will be either true or false. Similarly, a programming language provides various relational operators. The following table lists down a few of the important relational operators available in C programming language.
+
 --------------------------------------------------------------------------------------------------------------------------------
     Operator	                                Description	                                         Example
 ==	Checks if the values of two operands are equal or not, if yes then condition becomes true.	(A == B) is not true.
