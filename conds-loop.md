@@ -1,5 +1,5 @@
 # SELECTIVE CONTROL STRUCTURES <h1>
-  
+    
 ## Control structures <h2>
   
 According to the structure theorem, any computer program can be written using the basic control structures. They can be combined in any way necessary to deal with a given problem.
@@ -280,4 +280,12 @@ int main()
 [Reference_2](https://docs.oracle.com/cd/A87860_01/doc/appdev.817/a77069/03_struc.htm#573)
 [Reference_3](https://press.rebus.community/programmingfundamentals/chapter/selection-control-structures/)
 [Reference_4](https://www.cs.fsu.edu/~myers/c++/notes/control1.html)
+
+*GIT REPOSITORY's*
+	
+[*Ricardo Armando Centeno Santos*](https://github.com/ricardocenteno18/introstructureprog/blob/master/introstructureprog.md)
+				
+[*Pedro Luis Pech Marquez*](https://github.com/pedropech2001/introstructureprograming)
+
+[*Neguib Habib Metri Guevara*](https://github.com/Neguib-Metri/introstructureprog)
 
