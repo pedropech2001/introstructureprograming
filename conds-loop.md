@@ -91,15 +91,6 @@ End
 
 Example 
 
-IF ELSE: 
-
-// Check whether an integer is odd or even
-
-#include <stdio.h>
-int main() {
-    int number;
-    printf("Enter an integer: ");
-    scanf("%d", &number);
 
     // True if the remainder is 0
     if  (number%2 == 0) {
@@ -135,6 +126,22 @@ statement(s) may be a single statement or a block of statements. The condition m
 
 When the condition becomes false, the program control passes to the line immediately following the loop.
 Here, the key point to note is that a while loop might not execute at all. When the condition is tested and the result is false, the loop body will be skipped and the first statement after the while loop will be executed.
+
+WHILE EXAMPLE: 
+
+#include <stdio.h>
+int main()
+{
+    int i = 1;
+    
+    while (i <= 5)
+    {
+        printf("%d\n", i);
+        ++i;
+    }
+
+    return 0;
+}
 
 **DO WHILE**
 
@@ -203,6 +210,32 @@ while (i <7) {
 }
 This example would normally count from i = 0 to i = 7, but each time the loop is executed it asks the user if he wants to increase the variable or not. If you enter "no", the continue statement is executed, which returns to the beginning of the loop without increasing the variable i by 1, since the statements below the continue would be ignored.
 
+BREAK EXAMPLE: 
+
+// Program to calculate the sum of a maximum of 10 numbers
+// If a negative number is entered, the loop terminates
+
+
+    for(i=1; i <= 10; ++i)
+    {
+        printf("Enter a n%d: ",i);
+        scanf("%lf",&number);
+
+        // If the user enters a negative number, the loop ends
+        if(number < 0.0)
+        {
+            break;
+        }
+
+        sum += number; // sum = sum + number;
+    }
+
+    printf("Sum = %.2lf",sum);
+    
+    return 0;
+
+
+
 **The continue jump statement**
 
 Is always used to interrupt (break) the normal execution of a loop. However, program control is not transferred to the first statement after the loop (as the break statement does, see the previous section Break statement in C), that is, the loop does not end, but instead ends the iteration in course, transferring the control of the program to the exit condition of the loop, to decide if a new iteration should be carried out or not.
@@ -217,7 +250,6 @@ int main()
 {
 
    int n, a;
-
    a = 0;
    do
    {
@@ -234,12 +266,10 @@ int main()
      }
      printf( "El opuesto es: %d\n", -n );
      a += n;
-   } while ( n >= -10 && n <= 10 );
-
-   printf( "Suma: %d", a );
-
-   return 0;
-}
+     } while ( n >= -10 && n <= 10 );
+     printf( "Suma: %d", a );
+     return 0;
+     }
 
 
 
