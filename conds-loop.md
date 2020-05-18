@@ -31,6 +31,26 @@ You might want to place brief IF statements on a single line, as in
 
 IF x > y THEN high := x; END IF;
 
+EXAMPLE 
+
+ // Program to display a number if it is negative
+
+#include <stdio.h>
+int main() {
+    int number;
+
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // true if number is less than 0
+    if (number < 0) {
+        printf("You entered %d.\n", number);
+    }
+
+    printf("The if statement is easy.");
+
+    return 0;
+}
 **IF ELSE**
 
 
@@ -62,6 +82,29 @@ ELSE
    END IF;
 END IF;
 
+If age > 17
+    Output "You can vote."
+else:
+    Output "You can't vote."
+End
+
+
+**The Iteration Cycle**
+
+Is a process that you can use to improve anything over time.
+The more clearly you define what you’re after with each iteration, the better the feedback and the value you’ll receive from each cycle.
+The Iteration Cycle is a process you can use to make anything better over time. There’s nothing wasteful about the inevitable changes and revisions that these artists made to their creations: every iteration brought the project one step closer to completion.
+It has six major steps:
+
+Watch: What works? What doesn’t?
+Ideate: What could you improve? What are your options?
+Guess: Based on experience, which idea do you think will make the biggest impact?
+Which?: Decide which change to make.
+Act: Make the change.
+Measure: Was it positive or negative? Should you keep it or go back?
+Iteration is a cycle. Once you do it, you repeat it.
+
+
 **WHILE**
 
 A while loop in C programming repeatedly executes a target statement as long as a given condition is true.
@@ -69,6 +112,21 @@ statement(s) may be a single statement or a block of statements. The condition m
 
 When the condition becomes false, the program control passes to the line immediately following the loop.
 Here, the key point to note is that a while loop might not execute at all. When the condition is tested and the result is false, the loop body will be skipped and the first statement after the while loop will be executed.
+
+**DO WHILE**
+
+If you recall the way the for and while loops work, you will remember that these loop types check for the loop condition at the beginning of the loop. Unless the condition is satisfied the loop will not be executed.
+
+The do while loop checks the condition at the end of the loop. This means that the statements inside the loop body will be executed at least once even if the condition is never true.
+
+Syntax
+The syntax of do while loop is as follows:
+
+do {
+ /* statement(s); */
+ /increment loop counter/
+} while ( condition );
+In case the condition is true, the control goes back to the beginning of the loop. If the condition is false, the control breaks out of the loop.
 
 **FOR**
 
@@ -100,6 +158,44 @@ while (i <7) {
    i ++
 }
 This example would normally count from i = 0 to i = 7, but each time the loop is executed it asks the user if he wants to increase the variable or not. If you enter "no", the continue statement is executed, which returns to the beginning of the loop without increasing the variable i by 1, since the statements below the continue would be ignored.
+
+**The continue jump statement**
+
+Is always used to interrupt (break) the normal execution of a loop. However, program control is not transferred to the first statement after the loop (as the break statement does, see the previous section Break statement in C), that is, the loop does not end, but instead ends the iteration in course, transferring the control of the program to the exit condition of the loop, to decide if a new iteration should be carried out or not.
+
+Therefore, the continue statement ends (ends) the execution of an iteration of a loop, but not the execution of the loop itself. So, the continue statement skips (does not execute) the statements that exist after it, in the iteration of a loop.
+
+Ejemplo
+
+#include <stdio.h>
+
+int main()
+{
+
+   int n, a;
+
+   a = 0;
+   do
+   {
+     printf( "Introduzca un numero entero: " );
+     scanf( "%d", &n );
+
+     if ( n == 0 )
+     {
+      printf( "ERROR: El cero no tiene opuesto.\n" );
+      continue;
+      /* En el caso de que n sea un cero,
+         la iteración en curso del bucle
+         se interrumpe aquí. */
+     }
+     printf( "El opuesto es: %d\n", -n );
+     a += n;
+   } while ( n >= -10 && n <= 10 );
+
+   printf( "Suma: %d", a );
+
+   return 0;
+}
 
 
 
