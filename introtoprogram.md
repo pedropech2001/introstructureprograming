@@ -6,7 +6,7 @@
 
 [**Neguib Habib Metri Guevara**](https://github.com/Neguib-Metri/introstructureprog) 
 
-###[**Declarative**](https://sg.com.mx/revista/24/programacion-declarativa)
+**Declarative** <br>
 In computer science, declarative programming is a
 programming paradigm a style of building the structure and elements of computer
 programs that expresses the logic of a computation without describing its control
