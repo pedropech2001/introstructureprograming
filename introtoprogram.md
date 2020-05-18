@@ -1,12 +1,12 @@
-                                               **Programmig Paradigms**
-				                  *GIT REPOSITORY's*
+   **Programmig Paradigms**
+                                                  **GIT REPOSITORY's*
 [**Ricardo Armando Centeno Santos**](https://github.com/ricardocenteno18/introstructureprog/blob/master/introstructureprog.md)
 				
 [**Pedro Luis Pech Marquez**](https://github.com/pedropech2001/introstructureprograming)
 
 [**Neguib Habib Metri Guevara**](https://github.com/Neguib-Metri/introstructureprog) 
 
-*Declarative:
+###[**Declarative**](https://sg.com.mx/revista/24/programacion-declarativa)
 In computer science, declarative programming is a
 programming paradigm a style of building the structure and elements of computer
 programs that expresses the logic of a computation without describing its control
