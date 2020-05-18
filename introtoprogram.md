@@ -100,7 +100,9 @@ Such as scanf() and printf() functions
 
 **Identify the operators of structured programming language (Relational/Conditional/Logical):** 
 
-Here, we used a symbol > and it is called a relational operator and in their simplest form, they produce Boolean results which means the result will be either true or false. Similarly, a programming language provides various relational operators. The following table lists down a few of the important relational operators available in C programming language.
+Here, we used a symbol > and it is called a relational operator and in their simplest form, they produce Boolean results which means the result will be either true or false. Similarly, a programming language provides various relational operators. 
+
+**The following table lists down a few of the important relational operators available in C programming language.**
 
 --------------------------------------------------------------------------------------------------------------------------------
     Operator	                                Description	                                         Example
@@ -118,8 +120,8 @@ Here, we used a symbol > and it is called a relational operator and in their sim
 
 **Logical Operators:**
 Logical operators are very important in any programming language and they help us take decisions based on certain conditions. Suppose we want to combine the result of two conditions, then logical AND and OR logical operators help us in producing the final result.
-The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0, then
 
+**The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0, then**
 
 --------------------------------------------------------------------------------------------------------------------------------
     Operator	                                      Description	                                        Example
