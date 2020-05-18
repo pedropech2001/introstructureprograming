@@ -104,14 +104,14 @@ Here, we used a symbol > and it is called a relational operator and in their sim
 
 **The following table lists down a few of the important relational operators available in C programming language.**
 
---------------------------------------------------------------------------------------------------------------------------------
-    Operator	                                Description	                                         Example
-==	Checks if the values of two operands are equal or not, if yes then condition becomes true.	(A == B) is not true.
-!=	Checks if the values of two operands are equal or not, if values are not equal then condition becomes true.	(A != B) is true.
->	Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.	(A > B) is not true.
-<	Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.	(A < B) is true.
->=	Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.	(A >= B) is not true.
-<=	Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.	(A <= B) is true.
+|   Operator   |                     Description	                 |           Example           |
+|------------|-------------------------------------------------------|---------------------------|	
+|==|Checks if the values of two operands are equal or not, if yes then condition becomes true.|(A == B) is not true.|
+|!=|Checks if the values of two operands are equal or not, if values are not equal then condition becomes true.|(A != B) is true.|
+|>|Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.|(A > B) is not true.|
+|<|Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.|(A < B) is true.|
+|>=|Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.|(A >= B) is not true.|
+|<=|Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes |true.|(A <= B) is true.|
 --------------------------------------------------------------------------------------------------------------------------------
 
 *Here, we will show you one example of C Programming which makes use of if conditional statement. Though this statement will be discussed later in a separate chapter, but in short, we use if statement to check a condition and if the condition is true, then the body of if statement is executed, otherwise the body of if statement is skipped.
@@ -123,11 +123,12 @@ Logical operators are very important in any programming language and they help u
 
 **The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0, then**
 
---------------------------------------------------------------------------------------------------------------------------------
-    Operator	                                      Description	                                        Example
-&&	Called Logical AND operator. If both the operands are non-zero, then condition becomes true.	(A && B) is false.
-||	Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true.	(A || B) is true.
-!	Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false.	!(A && B) is true.
+|   Operator |                     Description	                     |           Example         |
+|------------|-------------------------------------------------------|---------------------------|
+|-&&| Called Logical AND operator. If both the operands are non-zero, then condition becomes true.|(A && B) is false.|
+|-| Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true.|(A || B) is true.|
+|-!|Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false.|(A && B) is true.|
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 **Compiled Languages:**
@@ -150,18 +151,17 @@ Source code is the fundamental component of a computer program that is created b
 Often found in programming languages and macros, reserved words are terms or phrases appropriated for special use that may not be utilized in the creation of variable names. For example, "print" is a reserved word because it is a function in many languages to show text on the screen.
 
 
-Here is a table having almost all the keywords supported by C Programming language −
+**Here is a table having almost all the keywords supported by C Programming language −**
 
---------------------------------------------
-auto	else	long	switch
-break	enum	register	typedef
-case	extern	return	union
-char	float	short	unsigned
-const	for	signed	void
-continue	Goto	Sizeof	volatile
-default	if	static	while
-do	int	struct	_Packed
-double			
+| -auto	   |else   |long     | switch|
+|:--------:|:-----:|:-------:|:--------:|
+|-break	   |enum   |register | typedef|
+|-case	   |extern |return   | union|
+|-char	   |float  |short    | unsigned|
+|-const	   | for   |signed   | void|
+|-continue | Goto  |Sizeof   | volatile|
+|-default  | if	   |static   |while|
+|-do	   | int   |struct   |double|	
 --------------------------------------------
 
 **Identifiers:**
@@ -204,38 +204,40 @@ Data type determines the type of data a variable will hold. If a variable x is d
 
 Integers are used to store whole numbers.
 
-Size and range of Integer type on 16-bit machine:
-------------------------------------------------------------------------
-Type	Size(bytes)	Range
-int or signed int	2	-32,768 to 32767
-unsigned int	2	0 to 65535
-short int or signed short int	1	-128 to 127
-unsigned short int	1	0 to 255
-long int or signed long int	4	-2,147,483,648 to 2,147,483,647
-unsigned long int	4	0 to 4,294,967,295
+**Size and range of Integer type on 16-bit machine:**
+
+|-Type    | Size(bytes)|  Range   |
+|---------|------------|------------------|
+|-int or signed int| 2 | -32,768 to 32767 |
+|-unsigned int | 2 | 0 to 65535 |
+|-short int or signed short int| 1 | -128 to 127|
+|-unsigned short int| 1	| 0 to 255 |
+|-long int or signed long int| 4 | -2,147,483,648 to 2,147,483,647|
+|-unsigned long int| 4 | 0 to 4,294,967,295| 
+
 ________________________________________________________________________
 
-Floating point type
+**Floating point type**
 
 Floating types are used to store real numbers.
 
 Size and range of Integer type on 16-bit machine
-------------------------------------------------------------------------
-Type	Size(bytes)	Range
-Float	4	3.4E-38 to 3.4E+38
-double	8	1.7E-308 to 1.7E+308
-long double	10	3.4E-4932 to 1.1E+4932
+|-Type	   |  Size(bytes) |    Range       |
+|----------|--------------|----------------|
+|Float| 4 | 3.4E-38 to 3.4E+38|
+|double| 8 |1.7E-308 to 1.7E+308|
+|long double|10|3.4E-4932 to 1.1E+4932|
 ________________________________________________________________________
 
-Character type
+**Character type**
 
 Character types are used to store characters value.
 
 Size and range of Integer type on 16-bit machine
-------------------------------------------------------------------------
-Type	Size(bytes)	Range
-char or signed char	1	-128 to 127
-unsigned char	1	0 to 255
+|     Type     |  Size(bytes) |    Range        |
+|--------------|--------------|-----------------|
+|char or signed char| 1	|-128 to 127|
+|unsigned char| 1 |0 to 255|
 _________________________________________________________________________
 
 **Void type**
