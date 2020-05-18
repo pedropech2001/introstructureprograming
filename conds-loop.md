@@ -273,3 +273,11 @@ int main()
 
 
 
+
+**REFERENCES**
+
+[Reference_1](https://www.programiz.com/c-programming/c-break-continue-statement)
+[Reference_2](https://docs.oracle.com/cd/A87860_01/doc/appdev.817/a77069/03_struc.htm#573)
+[Reference_3](https://press.rebus.community/programmingfundamentals/chapter/selection-control-structures/)
+[Reference_4](https://www.cs.fsu.edu/~myers/c++/notes/control1.html)
+
