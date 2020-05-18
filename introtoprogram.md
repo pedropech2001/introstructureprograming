@@ -183,7 +183,7 @@ Constants are used in two ways. They are:
 A literal constant is a value you type into your program wherever it is needed. Examples include the constants used for initializing a variable and constants used in lines of code 
 
 
-**Data types: **
+**Data types:**
 
 
 Data types specify how we enter data into our programs and what type of data we enter. Language has some predefined set of data types to handle various kinds of data that we can use in our program. These datatypes have different storage capacities.
