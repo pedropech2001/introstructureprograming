@@ -44,29 +44,43 @@ Constraints are just relations, and a constraint satisfaction problem (CSP) stat
 Templates are the foundation of generic programming, which involves writing code in a way that is independent of any particular type.
 A template is a blueprint or formula for creating a generic class or a function. The library containers like iterators and algorithms are examples of generic programming and have been developed using template concept.
 
-*Programming language a program intended for the construction of other computer programs. Its name is due to the fact that it comprises a formal language that is designed to organize algorithms and logical processes that will then be carried out by a computer or computer system, thus controlling its physical and logical behavior and its communication with the human user.
+**Programming language a program intended for the construction of other computer programs**
+
+Its name is due to the fact that it comprises a formal language that is designed to organize algorithms and logical processes that will then be carried out by a computer or computer system, thus controlling its physical and logical behavior and its communication with the human user.
 This language is made up of symbols and syntactic and semantic rules, expressed in the form of instructions and logical relationships, by means of which the source code of a specific application or piece of software is constructed. Thus, the end result of these creative processes can also be called the programming language.
 Sequential algorithm
 
-*The sequential structure is one in which one action (instruction) follows another in sequence. The tasks follow each other in such a way that the output of one is the input of the next and so on until the end of the process.
-*Structured:
-Structured programming is a program written with only the structured programming constructions:  Sequence: Lines or blocks of code are written and executed in sequential order. Repetition: Repeat a block of code (Action) while a condition is true. There is no limit to the number of times that the block can be executed. Selection: Execute a block of code (Action) if a condition is true. The block of code is executed at most once. 
+**The sequential structure is one in which one action (instruction) follows another in sequence**
+
+The tasks follow each other in such a way that the output of one is the input of the next and so on until the end of the process.
+
+**Structured:**
+
+**Structured programming is a program written with only the structured programming constructions:**
+Sequence: Lines or blocks of code are written and executed in sequential order. Repetition: Repeat a block of code (Action) while a condition is true. There is no limit to the number of times that the block can be executed. Selection: Execute a block of code (Action) if a condition is true. The block of code is executed at most once. 
 Some characteristics are: The code should be in modular nature, there should be single entry and single exit for each module (i.e. no unconditional gates). At least one construct each for sequence, condition and iteration.
 
-*Imperative: 
+**Imperative:**
+
 Imperative programming is a paradigm of computer programming in which the program describes a sequence of steps that change the state of the computer. Unlike declarative programming, which describes "what" a program should accomplish, imperative programming explicitly tells the computer "how" to accomplish it. Programs written this way often compile to binary executables that run more efficiently since all CPU instructions are themselves imperative statements.
 To make programs simpler for a human to read and write, imperative statements can be grouped into sections known as code blocks.
 In the 1950s, the idea of grouping a program's code into blocks was first implemented in the ALGOL programming language. They were originally called "compound statements," but today these blocks of code are known as procedures. Once a procedure is defined, it can be used as a single imperative statement, abstracting the control flow of a program and allowing the developer to express programming ideas more naturally. This type of imperative programming is called procedural programming, and it is a step towards higher-level abstractions such as declarative programming.
 
-*Von Neumann: 
+**Von Neumann:**
+
 A von Neumann language is any of those programming languages that are high-level abstract isomorphic copies of von Neumann architectures. As of 2009, most current programming languages fit into this.
 
-*Interpreted (Scripting):  In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
+**Interpreted (Scripting):**
+
+In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
 Interpreters run through a program line by line and execute each command. Here, if the author decides he wants to use a different kind of olive oil, he could scratch the old one out and add the new one. Your translator friend can then convey that change to you as it happens.
 Interpreted languages were once significantly slower than compiled languages. But, with the development of just-in-time compilation, that gap is shrinking.
+
 Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
 
-*Object-oriented	
+**Object-oriented**	
+
+
 Object-oriented programming (OOP) is a programming paradigm based upon objects (having both data and methods) that aims to incorporate the advantages of modularity and reusability. Objects, which are usually instances of classes, are used to interact with one another to design applications and computer programs.
 The important features of object–oriented programming are:
 	•Bottom–up approach in program design
