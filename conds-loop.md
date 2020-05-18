@@ -1,6 +1,6 @@
 # SELECTIVE CONTROL STRUCTURES <h1>
   
-  **Control structures**
+##Control structures<h2>
   
 According to the structure theorem, any computer program can be written using the basic control structures. They can be combined in any way necessary to deal with a given problem.
 
