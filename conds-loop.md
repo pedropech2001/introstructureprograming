@@ -50,7 +50,8 @@ int main() {
     printf("The if statement is easy.");
 
     return 0;
-}
+
+
 **IF ELSE**
 
 
@@ -88,8 +89,30 @@ else:
     Output "You can't vote."
 End
 
+Example 
 
-**The Iteration Cycle**
+IF ELSE: 
+
+// Check whether an integer is odd or even
+
+#include <stdio.h>
+int main() {
+    int number;
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // True if the remainder is 0
+    if  (number%2 == 0) {
+        printf("%d is an even integer.",number);
+    }
+    else {
+        printf("%d is an odd integer.",number);
+    }
+
+    return 0;
+
+
+## The Iteration Cycle <h2>
 
 Is a process that you can use to improve anything over time.
 The more clearly you define what you’re after with each iteration, the better the feedback and the value you’ll receive from each cycle.
@@ -131,6 +154,27 @@ In case the condition is true, the control goes back to the beginning of the loo
 **FOR**
 
 Whereas the number of iterations through a WHILE loop is unknown until the loop completes, the number of iterations through a FOR loop is known before the loop is entered. FOR loops iterate over a specified range of integers. The range is part of an iteration scheme, which is enclosed by the keywords FOR and LOOP. A double dot (..) serves as the range operator. 
+// Program to calculate the sum of first n natural numbers
+// Positive integers 1,2,3...n are known as natural numbers
+
+#include <stdio.h>
+int main()
+{
+    int num, count, sum = 0;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+
+    // for loop terminates when num is less than count
+    for(count = 1; count <= num; ++count)
+    {
+        sum += count;
+    }
+
+    printf("Sum = %d", sum);
+
+    return 0;
+
 
 **BREAk**
 
